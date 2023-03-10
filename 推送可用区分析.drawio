@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T02:55:23.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" version="21.0.6" etag="25cffDZYronWi8H_s0_U" type="github"><diagram name="第 1 页" id="MCr-TpRp9YQij4r24jKr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-10T03:24:42.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="WOSyadr144bUCuOisziU" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="MCr-TpRp9YQij4r24jKr">
+    <mxGraphModel dx="1026" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wj7ze2FspyCpMLqPtbik-2" value="负载均衡alb(多可用区）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346.5" y="195" width="162" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="138" y="279" width="294" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-4" value="ack容器（可用区A）&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="138" y="282" width="159" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-5" value="Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="316" width="261" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-6" value="分发服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="354" width="262" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-7" value="音响渠道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="401" width="84" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-8" value="app渠道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="401" width="84" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-11" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="401" width="84" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-15" value="流水服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="451" width="84" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-16" value="回执服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="451" width="84" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-17" value="回执服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="451" width="84" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
