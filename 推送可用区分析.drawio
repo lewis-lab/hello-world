@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T06:25:07.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="ItPWT-qp591PAZvYAVha" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T06:27:18.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="QPMJzoJc7lpNwod55FsD" version="21.0.6" type="github">
   <diagram name="第 1 页" id="MCr-TpRp9YQij4r24jKr">
-    <mxGraphModel dx="2110" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3622" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,11 +21,17 @@
         <mxCell id="wj7ze2FspyCpMLqPtbik-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;gradientColor=default;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="113" y="242" width="700" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="wj7ze2FspyCpMLqPtbik-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.393;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wj7ze2FspyCpMLqPtbik-2" target="wj7ze2FspyCpMLqPtbik-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wj7ze2FspyCpMLqPtbik-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wj7ze2FspyCpMLqPtbik-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="389" y="181" />
+              <mxPoint x="389" y="181" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="wj7ze2FspyCpMLqPtbik-2" value="负载均衡alb(多可用区）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="307" y="147" width="162" height="44" as="geometry" />
+        <mxCell id="wj7ze2FspyCpMLqPtbik-2" value="公网域名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="120" width="162" height="39" as="geometry" />
         </mxCell>
         <mxCell id="wj7ze2FspyCpMLqPtbik-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="138" y="273" width="291" height="291" as="geometry" />
@@ -192,7 +198,13 @@
           <mxGeometry x="577" y="897" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wj7ze2FspyCpMLqPtbik-109" value="嘉联云店" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="349" width="87" height="37" as="geometry" />
+          <mxGeometry x="348" y="32" width="87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.398;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wj7ze2FspyCpMLqPtbik-111" target="wj7ze2FspyCpMLqPtbik-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-111" value="负载均衡alb(多可用区）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310.5" y="182" width="162" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
