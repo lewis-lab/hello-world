@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T06:24:15.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="ADPtdIAyY_I72y6T1t4K" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T06:25:07.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="ItPWT-qp591PAZvYAVha" version="21.0.6" type="github">
   <diagram name="第 1 页" id="MCr-TpRp9YQij4r24jKr">
     <mxGraphModel dx="2110" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,11 +171,10 @@
         <mxCell id="wj7ze2FspyCpMLqPtbik-94" value="出公网net" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="774" width="95" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="wj7ze2FspyCpMLqPtbik-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wj7ze2FspyCpMLqPtbik-86" target="wj7ze2FspyCpMLqPtbik-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wj7ze2FspyCpMLqPtbik-86" value="嘉联云店" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="356" y="11" width="66" height="26" as="geometry" />
+        <mxCell id="wj7ze2FspyCpMLqPtbik-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="wj7ze2FspyCpMLqPtbik-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="36.999999999999886" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wj7ze2FspyCpMLqPtbik-100" value="发送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="367" y="70" width="66" height="26" as="geometry" />
@@ -191,6 +190,9 @@
         </mxCell>
         <mxCell id="wj7ze2FspyCpMLqPtbik-107" value="终端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="577" y="897" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj7ze2FspyCpMLqPtbik-109" value="嘉联云店" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" width="87" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
